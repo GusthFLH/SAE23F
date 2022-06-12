@@ -1,0 +1,174 @@
+body { 
+    margin:0%;
+}
+
+#header { 
+    height: 180px;
+    background:#e95935;
+}
+
+img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 200px;
+}
+
+.name {
+    font-family: Impact;
+	font-weight: 1000;
+    font-size: 300%;
+    position: absolute;
+    left: 180px;
+    margin: 0 auto;
+    padding:130px;
+}
+
+.STOCK {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 280%;
+    font-weight: 1000;
+    position: absolute;
+    left: 750px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+.BoutonAccueil {
+    font-family: 'Teko', sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+    position: absolute;
+    margin: 128px;
+    right: 438px;
+    text-decoration: none;
+    color:black;
+    background: rgb(247, 250, 105);
+    height: 50px;
+    width: 281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #000000;
+}
+
+.BoutonAccueil:hover { 
+    background-color: #ffffff;
+}
+
+.BoutonInscrire {
+    font-family: 'Teko', sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+    position: absolute;
+    margin: 128px;
+    right: 155px;
+    text-decoration: none;
+    color:black;
+    background: rgb(247, 250, 105);
+    height: 50px;
+    width: 281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #000000;
+}
+
+.BoutonInscrire:hover { 
+    background-color: #ffffff;
+}
+
+.BoutonIdentifier {
+    font-family: 'Teko', sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+    position: absolute;
+    margin: 128px;
+    right: -128px;
+    text-decoration: none;
+    color: black;
+    background: rgb(247, 250, 105);
+    height: 50px;
+    width: 281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #000000;
+}
+
+.BoutonIdentifier:hover { 
+    background-color: #ffffff;
+}
+
+table { 
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.Id {
+    font-size: 235%;
+    text-decoration: none;
+    color:black;
+    font-family: 'Teko', sans-serif;
+}
+
+.Nom {
+    font-size: 235%;
+    text-decoration: none;
+    color:black;
+    font-family: 'Teko', sans-serif;
+}
+
+.Quantité {
+    font-size: 235%;
+    text-decoration: none;
+    color:black;
+    font-family: 'Teko', sans-serif;
+}
+
+#middle {
+    position: absolute;
+    left: 600px;
+    bottom: 50px;
+
+}
+
+#searchbar { 
+    margin-left: 0%;
+    margin-right: 8%;
+    width: 666px;
+    padding:15px;
+    border-radius: 1px;
+    position: absolute;
+    left: 31.24%;
+    bottom: 565px;
+    border:2px solid black;
+}
+
+.Titre {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 280%;
+    font-weight: 1000;
+    position: absolute;
+    left: 880px;
+}
+
+.Add {
+    font-family: 'Teko', sans-serif;
+    font-size: 235%;
+    font-weight: 500;
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
